@@ -1,0 +1,114 @@
+.Header_Web .Frame-543 {
+  height: 22px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0;
+}
+
+.Header_Web img.Tirrilee-Logo {
+  width: 78px;
+  height: 22px;
+  flex-grow: 0;
+  object-fit: contain;
+}
+
+.Header_Web .Frame-542 {
+  width: 190px;
+  height: 21px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+  padding: 0;
+}
+
+.Header_Web .Frame-540 {
+  width: 77px;
+  height: 21px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+}
+
+.Header_Web span {
+  width: 49px;
+  height: 21px;
+  flex-grow: 0;
+  font-family: PretendardVariable;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.Header_Web .Frame-541 {
+  width: 89px;
+  height: 21px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+}
+
+.Header_Web span {
+  width: 61px;
+  height: 21px;
+  flex-grow: 0;
+  font-family: PretendardVariable;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.Header_Web.home .menuhome {
+  width: 1280px;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 62px;
+  border: solid 1px var(--gray-scale-gray-2);
+  background-color: var(--gray-scale-white);
+}
+
+.Header_Web.home img.add-gr {
+  width: 20px;
+  height: 20px;
+  flex-grow: 0;
+  object-fit: contain;
+}
+
+.Header_Web.home span {
+  color: var(--gray-scale-gray-8);
+}
+
+.Header_Web.home img.user-gr {
+  width: 20px;
+  height: 20px;
+  flex-grow: 0;
+  object-fit: contain;
+}
+
+.Header_Web.home span {
+  color: var(--gray-scale-gray-8);
+}

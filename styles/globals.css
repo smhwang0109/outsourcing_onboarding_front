@@ -2,8 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: PretendardVariable;
 }
 
 a {
@@ -15,12 +14,197 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+:root {
+  --gray-scale-gray-2: #eff1f4;
+  --gray-scale-gray-6: #9da0a8;
+  --gray-scale-gray-1: #f9fafc;
+  --gray-scale-gray-5: #bec1c7;
+  --gray-scale-gray-8: #5a5e6a;
+  --primary-primary: #226bef;
+  --gray-scale-gray-3: #e4e6ea;
+  --gray-scale-white: #fff;
+  --gray-scale-gray-7: #7f828c;
+  --primary-p-100: #e8f0fe;
+  --gray-scale-gray-9: #3b3f4a;
+  --none: rgba(255, 255, 255, 0);
+  --icon-black: #0a0a0a;
+  --primary-p-800: #4e88f2;
+  --palette-magenta-magenta: #ff0089;
+  --gray-scale-black: #000;
+}
+
+/* @font-face {
+  font-family: PretendardVariable;
+  src: local(PretendardVariable-Regular),
+    url(/path/to/PretendardVariable-Regular.woff2) format("woff2"),
+    url(/path/to/PretendardVariable-Regular.woff) format("woff"),
+    url(/path/to/PretendardVariable-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: PretendardVariable;
+  src: local(PretendardVariable-Medium),
+    url(/path/to/PretendardVariable-Medium.woff2) format("woff2"),
+    url(/path/to/PretendardVariable-Medium.woff) format("woff"),
+    url(/path/to/PretendardVariable-Medium.ttf) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: PretendardVariable;
+  src: local(PretendardVariable-SemiBold),
+    url(/path/to/PretendardVariable-SemiBold.woff2) format("woff2"),
+    url(/path/to/PretendardVariable-SemiBold.woff) format("woff"),
+    url(/path/to/PretendardVariable-SemiBold.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: PretendardVariable;
+  src: local(PretendardVariable-Bold),
+    url(/path/to/PretendardVariable-Bold.woff2) format("woff2"),
+    url(/path/to/PretendardVariable-Bold.woff) format("woff"),
+    url(/path/to/PretendardVariable-Bold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+} */
+.H3SBold {
+  font-family: PretendardVariable;
+  font-size: 28px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+.H4SBold {
+  font-family: PretendardVariable;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+.H5MBold {
+  font-family: PretendardVariable;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.7;
+  letter-spacing: normal;
+}
+.H6SBold {
+  font-family: PretendardVariable;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+.H6SSemibold {
+  font-family: PretendardVariable;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+.H6SRegular {
+  font-family: PretendardVariable;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+.Body1SSemibold {
+  font-family: PretendardVariable;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+.Body1MSemibold {
+  font-family: PretendardVariable;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.7;
+  letter-spacing: normal;
+}
+.Body1SRegular {
+  font-family: PretendardVariable;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+.Body2SSemibold {
+  font-family: PretendardVariable;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+.Body2SMedium {
+  font-family: PretendardVariable;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+.Body2SRegular {
+  font-family: PretendardVariable;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+.Body2MRegular {
+  font-family: PretendardVariable;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.7;
+  letter-spacing: normal;
+}
+.Caption1SMedium {
+  font-family: PretendardVariable;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+.Caption1SRegular {
+  font-family: PretendardVariable;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
 }
